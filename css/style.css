@@ -32,9 +32,15 @@ a,a:hover {
 	/* ...and now for the proper property */
 	transition:.3s;
 }
-a:hover,.highlight {
+
+a:hover {
 	color:#fe4918;
 }
+
+.highlight {
+	color:#fe4918;	
+}
+
 .max80 {
 	max-width:80%;
 	margin:0px auto;
@@ -118,18 +124,33 @@ a:hover,.highlight {
 	top:0px;
 	border-bottom:1px solid #eee;
 }
+
 .logo {
 	width:50px;
-	font-size:25px;
-	color:#8f8f8f;
+	font-size:35px;	
+	color:#ffffff;
 	text-transform:uppercase;
 	float:left;
 	display:block;
 	margin-top:0;
 	line-height:1;
-	margin-bottom:10px;
+	margin-bottom:0px;
 	letter-spacing:3px;
 }
+
+#logotitle {
+	font-weight: bolder;
+	font-size:50px;	
+	color:#ffffff;
+	text-transform:uppercase;		
+	margin-top:0;	
+	margin-bottom:30px;
+	margin-right:0px;
+	text-align:end;	
+}
+
+
+
 @media only screen and (max-width:766px) {
 	.logo {
 			float:none;
@@ -324,19 +345,19 @@ section .container {position:relative;}
 
 /* SECTION - BACKGROUNDS */
 .download {
-	background-image:url(../img/dummyimage.jpg);
+	background-image:url(../img/background.jpg);
 }
 .testimonials {
-	background-image:url(../img/dummyimage.jpg);
+	background-image:url(../img/background.jpg);
 }
 .contact-page {
-	background-image: url(../img/dummyimage.jpg);
+	background-image: url(../img/background.jpg);
 }
 
 
 /* SECTION - HOME */
 section.homepage {
-	background-image:url(../img/dummyimage.jpg);
+	background-image:url(../img/background.jpg);
 	background-position:top center;
 	background-size:cover;
 	position:relative;
@@ -366,7 +387,7 @@ section.homepage {
 	.homepage .btn-primary {	
 	margin-bottom:0px;
 	}
-	.homepage .text-right, .homepage .small-text  {text-align:center !important;}
+	.homepage .text-end, .homepage .small-text  {text-align:center !important;}
 	
 }
 @media only screen and (max-width:541px) {
@@ -398,12 +419,21 @@ section.homepage {
 	-o-transition:0.25s;
 	transition:0.25s;
 }
+.rotate-logo {
+	font-size:50px;
+	font-weight:600;
+	color:#fff;
+	line-height:58px;
+	transition:all 0.5s ease;
+}
+
 .rotate-description {
 	font-size:36px;
 	font-weight:300;
 	color:#fff;
 	line-height:58px;
 	transition:all 0.5s ease;
+	text-align: end;
 }
 .introarrow {
 	position:absolute;
@@ -460,6 +490,26 @@ a:focus, a:active {
 	width:30px;
 	margin:0px auto;
 	margin-bottom: 3px;
+}
+
+.videoitem {
+	margin:5px;		
+}
+
+.videoitem iframe {
+	width:100%;	
+}
+
+.videoitem video {
+	width:100%;	
+}
+
+
+.videotitle  {
+	padding:0;
+	font-size:20px;
+	margin: 0px;
+	margin-bottom:25px;
 }
 
 /* SECTION - DOWNLOAD */
