@@ -125,6 +125,20 @@ a:hover {
 	border-bottom:1px solid #eee;
 }
 
+
+.navlogo {
+	width:50px;
+	font-size:25px;	
+	color:#8f8f8f;
+	text-transform:uppercase;
+	float:left;
+	display:block;
+	margin-top:0;
+	line-height:1;
+	margin-bottom:10px;
+	letter-spacing:3px;
+}
+
 .logo {
 	width:50px;
 	font-size:35px;	
