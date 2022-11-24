@@ -513,7 +513,7 @@ a:focus, a:active {
 .videoitem iframe {
 	width:100%;		
 	height:unset;
-	aspect-ratio: 16 / 9;
+	aspect-ratio:1.7777;
 	padding: 5px;
 }
 
