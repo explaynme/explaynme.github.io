@@ -23,6 +23,23 @@ ul {
 	padding-start:0px;
 	padding: 0px;
 }
+
+.privacy ul {
+	-moz-padding-start:20px;
+	-webkit-padding-start:20px;
+	-khtml-padding-start:20px;
+	-o-padding-start:20px;
+	padding-start:20px;
+	padding: 20px;
+}
+
+.privacy h1 {
+	font-size:2.5em;
+	line-height:46px;
+	font-weight:600;
+	margin-bottom:20px;
+}
+
 a,a:hover {
 	text-decoration:none;
 	-o-transition:.3s;
